@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ion-range-test';
+
+  test(e:any) {
+    console.log(e.detail.value);
+  }
 }
